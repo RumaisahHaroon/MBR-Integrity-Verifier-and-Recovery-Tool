@@ -67,9 +67,11 @@ python --version
 **Step 3 — Load forensic images or VHD disks**
 **IMP**: Place all .001 image segments or mounted VHD disk files inside images/.
 
-**Step 4 — No external libraries required**
-Only Python standard library is used.
+**Step 4 — Run this pip command:**
+pip install reportlab
 
+**Step 5 — Run this command to load the GUI:**
+python main.py
 ---
 
 3\. Dependencies and Prerequisites
